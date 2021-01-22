@@ -11,6 +11,8 @@ with before we can post it publicly.
    from that build by nix? It fails to decode json objects correctly.
 4. Why do links stop working sometimes in dev mode?
 5. Why did hot reloading stop working?
+6. Why does onClick not supersede href_ in a? I can't seem to quiet the default event handler no matter what I try. https://github.com/abarbu/realworld-miso/blob/2e9ae42811b95c669c143b4f0054cb4a6c9458e1/src/Page/Profile.hs#L102
+7. Why does onClick in forms not quiet the default event handler? I have to do this hack with custon JS: https://github.com/abarbu/realworld-miso/blob/master/src/Page/Auth.hs#L83
 
 ## How to run the app
 
