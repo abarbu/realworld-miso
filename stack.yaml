@@ -1,0 +1,24 @@
+resolver: nightly-2020-11-23
+
+packages:
+- .
+- ../servant-jsaddle-stack
+
+extra-deps:
+- git: https://github.com/dmjio/miso.git
+  commit: bb230192164f0532660aadb4175460740abfa2a2
+- jsaddle-0.9.7.1@sha256:711e48fa92c04d373fc18f058743dd9a53aecd048c851a47c932ff7d9bff2c82,4418
+- jsaddle-warp-0.9.7.1@sha256:a97fc8ed87b3be01b02fa1c3dd5309229ced107e806fe0a2b3efcf970aae7d9a,2713
+# - git: https://github.com/haskell-servant/servant-jsaddle.git
+#   commit: 6ef0204b651b259ae165c3ad94e5814213515e44
+- ghcjs-dom-jsaddle-0.9.4.0@sha256:31ddfc5ebcbb4811b0c956fd5fcf106643012b46bb4e0bc2f15d09db1d116fbb,39525
+- jsaddle-dom-0.9.4.1@sha256:c769ab7d568c6fa9d0ecc9fa1c83091bfd3277c48e7f109a056cd088f399505f,75700
+- ghcjs-dom-0.9.4.0
+# - git: https://github.com/ghcjs/ghcjs-dom.git
+#   commit: 749963557d878d866be2d0184079836f367dd0ea
+  
+flags:
+  miso:
+    jsaddle: true
+
+# allow-newer: true
