@@ -1,7 +1,7 @@
-# RealWorld Miso example
+# ![RealWorld Miso example](logo.png)
 
 This application is built in Miso-JSaddle. While it's feature complete, please
-submit bug reports,there are some bugs that I hope the Miso community will help
+submit bug reports. There are some bugs that I hope the Miso community will help
 with before we can post it publicly.
 
 1. Why does updating the address bar not lead to a change in the application
